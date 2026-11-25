@@ -1,0 +1,19 @@
+Coloque as fotos aqui.
+
+Sugestão de nomes:
+  primeiro-ano.jpg
+  segundo-ano.jpg
+  robotica.jpg
+  professores.jpg
+  terceiro-ano.jpg
+
+Depois, em index.html, encontre a linha da foto que quer preencher,
+por exemplo:
+
+  <div class="tl-photo" data-caption="Foto do 1º ano"></div>
+
+e troque por:
+
+  <div class="tl-photo" style="background-image:url('assets/img/primeiro-ano.jpg')"></div>
+
+A legenda cinza some sozinha quando a foto entra.
